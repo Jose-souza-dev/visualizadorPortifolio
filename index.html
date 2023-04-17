@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/estyle.css">
+	<title>Visualizador de portfolio</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Meu portfolio</h1>
+			<span class="material-icons" id="burguer" onclick="clickMenu()">menu</span>
+			<nav id="navegar">
+				<ul>
+					<li><a href="https://jose-souza-dev.github.io/beneficio/">Benefício</a></li>
+					<li><a href="#">Opção 2</a></li>
+					<li><a href="#">Opção 3</a></li>
+					<li><a href="#">Opção 4</a></li>
+					<li><a href="#">Opção 5</a></li>
+					<li><a href="#">Opção 6</a></li>
+					<li><a href="#">Opção 7</a></li>
+					<li><a href="#">Opção 8</a></li>
+					<li><a href="#">Opção 9</a></li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<h2>Navegue pelo meu portfolio</h2>
+			<br>
+			<p>
+				O SENHOR é o meu pastor, nada me faltará.
+				Deitar-me faz em verdes pastos, guia-me mansamente a águas tranqüilas.
+				Refrigera a minha alma; guia-me pelas veredas da justiça, por amor do seu nome.
+				Ainda que eu andasse pelo vale da sombra da morte, não temeria mal algum, porque tu estás comigo; a tua vara e o teu cajado me consolam.
+				Preparas uma mesa perante mim na presença dos meus inimigos, unges a minha cabeça com óleo, o meu cálice transborda.
+				Certamente que a bondade e a misericórdia me seguirão todos os dias da minha vida; e habitarei na casa do Senhor por longos dias.
+
+				Salmos 23:1-6
+			</p>
+		</article>
+	</main>
+	<script>
+		function clickMenu() {
+    		if (navegar.style.display === 'block') {
+       				navegar.style.display = 'none'
+					navegar.style.transitionTinigFunction = 'ease'
+					navegar.style.transitionDuration = '2s'
+					navegar.style.transitionDelay = '1'
+   			} else {
+       				 navegar.style.display = 'block'
+					 navegar.style.transition = '0.4s'
+   		 }
+    
+}
+	</script>
+</body>
+</html>
